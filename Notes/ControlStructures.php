@@ -49,7 +49,7 @@ beginning of the next iteration.
         if ($i % 2 == 0) {
             continue;
         }
-        echo $i . ' ';
+        echo $i . ' '; //Use a . to concatenate in PHP
     }
 
 //Output: 1 3 5 7 9
