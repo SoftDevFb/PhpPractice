@@ -17,6 +17,7 @@
 <body>
     <?php
     $dayOfWeek = date('w');    //date() is a built in PHP function
+    
     switch ($dayOfWeek) {
         case 1:
             echo "<p>It is Monday!</p>";
